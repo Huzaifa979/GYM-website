@@ -1,0 +1,132 @@
+          * {
+              margin: 0;
+              padding: 0;
+          }
+          
+          body {
+              background: url('./muscles-2525200_1280.jpg') no-repeat center center;
+              background-size: cover;
+          }
+          
+          .head {
+              display: flex;
+              flex-direction: row;
+          }
+          
+          .left img {
+              /* height: 10vh; */
+              width: 4vw;
+              border-radius: 100%;
+              filter: invert(100%);
+              margin-left: 34px;
+              margin-top: 8px;
+          }
+          
+          .left .name {
+              text-align: center;
+              /* line-height: 19px; */
+              font-size: 1.4rem;
+              color: rgb(243, 241, 241);
+          }
+          
+          .mid {
+              width: 59%;
+          }
+          
+          .mid ul {
+              display: flex;
+              justify-content: center;
+              margin-top: 12px;
+          }
+          
+          .mid ul a {
+              text-decoration: none;
+              color: rgb(223, 221, 221);
+              padding: 0px 28px;
+              font-size: 1.5rem;
+          }
+          
+          .mid ul li a:hover {
+              text-decoration: underline;
+              color: grey;
+              font-size: 1.3rem;
+          }
+          
+          .mid li {
+              list-style: none;
+          }
+          
+          .right {
+              margin-left: 100px;
+              margin-top: 12px;
+          }
+          
+          .button {
+              font-size: 1.1rem;
+              color: rgb(241, 237, 237);
+              background-color: transparent;
+              border: 2px solid rgb(241, 237, 237);
+              border-radius: 6px;
+              padding: 2px;
+              margin: 0 4px;
+          }
+          
+          .button:hover {
+              color: gray;
+              font-size: 1rem;
+              border: none;
+          }
+          
+          .container {
+              width: 37vw;
+              height: 52vh;
+              border: 3px solid black;
+              border-radius: 5px;
+              margin: 130px 52px;
+              padding: 25px;
+              border-radius: 15px;
+          }
+          
+          h1 {
+              color: whitesmoke;
+              text-align: center;
+              margin-bottom: 25px;
+          }
+          
+          .form input {
+              text-align: center;
+              display: block;
+              width: 27.3vw;
+              margin: 4px auto;
+              font-size: 25px;
+              border-radius: 5px;
+              background-color: transparent;
+          }
+          
+          .form input:hover {
+              background-color: white;
+          }
+          
+          .b {
+              margin: 4px auto;
+              font-size: 1.3rem;
+              border-radius: 5px;
+              background-color: transparent;
+              display: block;
+              width: 20vw;
+              color: grey;
+          }
+          
+          .b:hover {
+              font-size: 1.26rem;
+          }
+          
+          @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+              .container {
+                  width: 83vw;
+                  height: 53vh;
+              }
+              .form input {
+                  width: 59.3vw;
+              }
+          }
